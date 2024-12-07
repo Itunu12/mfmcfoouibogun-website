@@ -109,7 +109,7 @@ window.addEventListener("scroll", () => {
       togglebar.style.color = "white"
         logoLetters.style.transition = "color 0.3s ease";
   } else {
-    navbar.style.backgroundColor = "rgba(225, 225, 225, 0.6)";
+    navbar.style.backgroundColor = "rgba(225, 225, 225, 1)";
     navLinks.forEach((link) => {
         link.style.color = "purple";
     });
